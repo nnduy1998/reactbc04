@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class BT3Header extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div className="container">
           <a className="navbar-brand" href="#">
             Start Bootstrap
